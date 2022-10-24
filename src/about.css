@@ -1,0 +1,27 @@
+body {
+    font-family: "Montserrat";
+  }
+
+  .about-container {
+    grid-template-columns:1fr;
+    grid-template-areas: 
+        "header"
+        "about";
+  } 
+
+  .header-container{
+    grid-area: header;
+  }
+
+  .about {
+    display: flex;
+    justify-content: flex-end;
+    grid-area: about;
+    margin-top: 600px;
+    align-items: center;
+  }
+  
+  
+
+  
+
