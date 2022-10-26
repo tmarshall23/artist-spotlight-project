@@ -1,16 +1,16 @@
 import React from "react";
 import { Card, CardImg, CardBody, CardTitle} from 'reactstrap';
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 
-function RenderPage({artist, art, onClick}) {
+function RenderPage({artist, art}) {
     return(
         <Card>
-            <Link to={`/artist/${artist.name}/${art.name}`}>
-            <CardImg width="100%" src= {art.image} alt={art.name}/>
+            <Link to={`/${artist}/${art.id}`}>
+            <CardImg width="100%" src= {art.image} alt={art.artwork}/>
             <CardBody>
                 <CardTitle className='art-title' >
-                    {art.name}
+                    {art.artwork}
                 </CardTitle>
             </CardBody>
             </Link>
@@ -20,10 +20,12 @@ function RenderPage({artist, art, onClick}) {
 
 const Artist = (props) => {
     
-    const artwork = props.artworks.map((artwork) => {
+    const selected = this.props.artworks.filter((artwork) => artwork.artistId === props.artist );
+    
+    const renderSelected = selected.map((item) => {
         return (
-            <div key= {artwork.id}>
-                <RenderPage artist= {this.props.artist} art= {artwork} />
+            <div key= {selected.id}>
+                <RenderPage artist= { props.artist } art= {item} />
             </div>
         );
     });
@@ -32,7 +34,7 @@ const Artist = (props) => {
         
         <div className='art-container'>
             <div className='art-cards'>
-                {artwork}
+                {renderSelected}
             </div>
         </div>
     )

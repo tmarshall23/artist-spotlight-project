@@ -6,32 +6,30 @@ import '../header.css';
 
 const Header = () => {
         return(
-            <div>
-                {/* <Navbar> */}
-                    <div className="header-container" >    
-                            <div className="header-title">
-                                <h1>ARTIST SPOTLIGHT</h1>   
-                            </div>
-                                <Nav className="navbar">
-                                    <NavItem className="li">
-                                        <NavLink className="nav-link" to="/aboutus">
-                                        ABOUT US
-                                        </NavLink>
-                                    </NavItem>
-                                    <NavItem className="li">
-                                        <NavLink className="nav-link" to="/home">
-                                        HOME
-                                        </NavLink>
-                                    </NavItem>
-                                    <NavItem className="li">
-                                        <NavLink className="nav-link" to="/contactus">
-                                        CONTACT US
-                                        </NavLink>
-                                    </NavItem>
-                                </Nav> 
-                    </div>
-                {/* </Navbar> */}
-            </div>
+            // <div>
+                <div className="header-container" >    
+                        <div className="header-title">
+                            <h1>ARTIST SPOTLIGHT</h1>   
+                        </div>
+                            <Nav className="navbar">
+                                <NavItem className="li">
+                                    <NavLink className="nav-link" to="/aboutus">
+                                    ABOUT US
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem className="li">
+                                    <NavLink className="nav-link" to="/">
+                                    HOME
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem className="li">
+                                    <NavLink className="nav-link" to="/contactus">
+                                    CONTACT US
+                                    </NavLink>
+                                </NavItem>
+                            </Nav> 
+                </div>
+            // </div>
         );    
 }
 

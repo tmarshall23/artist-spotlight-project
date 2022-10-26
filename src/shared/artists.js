@@ -2,7 +2,7 @@ export const ARTISTS =
     [
         {
             id: 0,
-            name: 'Susan Wheel',
+            artist: 'Susan Wheel',
             image: '/assets/home/susan-home.png',
             artwork: 'Pink Pill',
             featured: true
@@ -10,7 +10,7 @@ export const ARTISTS =
         },
         {
             id: 1,
-            name: 'Robert Day',
+            artist: 'Robert Day',
             image: '/assets/home/robert-home.png',
             artwork: 'Darkness',
             featured: true,
@@ -20,7 +20,7 @@ export const ARTISTS =
         },
         {
             id: 2,
-            name: 'John Flower',
+            artist: 'John Flower',
             image: '/assets/home/john-home.png',
             artwork: 'Table Still-Life',
             featured: true,
@@ -30,7 +30,7 @@ export const ARTISTS =
         },
         {
             id: 3,
-            name: 'Miranda Kind',
+            artist: 'Miranda Kind',
             image:  '/assets/home/miranda-home.png',
             artwork: 'Hope',
             featured: true,
@@ -40,7 +40,7 @@ export const ARTISTS =
         },
         {
             id: 4,
-            name: 'Amelia Blue',
+            artist: 'Amelia Blue',
             image:  '/assets/home/amelia-home.png',
             artwork: 'Open',
             featured: true,
@@ -50,7 +50,7 @@ export const ARTISTS =
         },
         {
             id: 5,
-            name: 'Jessie Jewel',
+            artist: 'Jessie Jewel',
             image:  '/assets/home/jessie-home.png',
             artwork: 'Bloom',
             featured: true,

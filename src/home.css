@@ -14,7 +14,7 @@ body {
     grid-template-areas: 
       "card card card",
       "card card card";
-    margin-top: 200px;
+    margin-top: 10px;
     align-items: center;
   }
   
@@ -47,7 +47,6 @@ body {
   @media only screen and (max-width: 600px) and (min-width: 400px) {
     .home-cards{
       grid-template-columns: 1fr;
-      margin-top: 215px;
 
     }
 
@@ -59,7 +58,6 @@ body {
   @media only screen and (max-width: 992px) and (min-width: 601px) {
     .home-cards{
       grid-template-columns: 2fr 2fr;
-      margin-top: 175px;
     }
 
     .card {

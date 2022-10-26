@@ -3,10 +3,13 @@ body {
   }
 
   .about-container {
-    grid-template-columns:1fr;
+    /* grid-template-columns:1fr;
     grid-template-areas: 
         "header"
-        "about";
+        "about"; */
+    margin: 20px;
+    padding: 30px;
+
   } 
 
   .header-container{
@@ -15,10 +18,11 @@ body {
 
   .about {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     grid-area: about;
-    margin-top: 600px;
-    align-items: center;
+    align-items: left;    
+
   }
   
   
