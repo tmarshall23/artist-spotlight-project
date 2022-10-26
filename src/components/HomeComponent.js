@@ -2,16 +2,16 @@ import React from 'react';
 import '../home.css';
 import "@fontsource/montserrat";
 import { Card, CardImg, CardBody, CardTitle} from 'reactstrap';
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 function RenderArtistDisplay({artist}) {
     return(
         <Card>
-            <Link to={`/${artist.id}`} >
-            <CardImg width="100%" src= {artist.image} alt={artist.artwork}/>
+            <Link to={`/${artist.name}`} >
+            <CardImg width="100%" src= {artist.image} alt={artist.name}/>
             <CardBody>
                 <CardTitle className='title-box' >
-                    {artist.artist}
+                    {artist.name}
                 </CardTitle>
             </CardBody>
             </Link>
@@ -21,10 +21,10 @@ function RenderArtistDisplay({artist}) {
 
 function Home (props){
     
-    const art = props.artists.map((artist) => {
+    const art = props.artists.map((a) => {
         return (
-            <div key= {artist.id}>
-                <RenderArtistDisplay artist= {artist} />
+            <div key= {a.id}>
+                <RenderArtistDisplay artist= {a} />
             </div>
         );
     });

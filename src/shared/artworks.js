@@ -4,7 +4,7 @@ export const ARTWORKS =
             id: 0,
             artistId: 0,
             artistName: 'Susan Wheel',
-            artwork: 'Pink Pill',
+            name: 'Pink Pill',
             image: '/assets/susan/pink-pill-lrg.png',
             description: 'Exploring the emotion and movement in everyday shapes and forms, the Pink Pill elicits the emotion and flow of the feminane. Painted with acrylic on Canvas',
         },
@@ -12,7 +12,7 @@ export const ARTWORKS =
             id: 1,
             artistId: 0,
             artistName: 'Susan Wheel',
-            artwork: 'Blue Fields',
+            name: 'Blue Fields',
             image: '/assets/susan/blue-fields-lrg.png',
             description: 'A view from the air reveals colorful landscapes. Painted with acrylic on Canvas'
         },
@@ -20,7 +20,7 @@ export const ARTWORKS =
             id: 2,
             artistId: 0,
             artistName: 'Susan Wheel',
-            artwork: 'Flow',
+            name: 'Flow',
             image: '/assets/susan/flow-lrg.png',
             featured: false,
             description: 'Vibrant textures blunted by the abscence of color. Painted with Acrylic on Canvas.'
@@ -29,7 +29,7 @@ export const ARTWORKS =
             id: 3,
             artistId: 0,
             artistName: 'Susan Wheel',
-            artwork: 'The Bends',
+            name: 'The Bends',
             image:  '/assets/susan/the-bends-lrg.png',
             featured: false,
             description: 'Curves and color merge giving movement to the stillness of the piece. Painted with acrylic on Canvas'
@@ -38,7 +38,7 @@ export const ARTWORKS =
             id: 4,
             artistId: 0,
             artistName: 'Susan Wheel',
-            artwork: 'Traffic',
+            name: 'Traffic',
             image:  '/assets/susan/traffic-lrg.png',
             featured: false,
             description: 'A blur of lights in the dark night, invoking chaos and panic. Painted with acrylic on Canvas'
@@ -47,7 +47,7 @@ export const ARTWORKS =
             id: 5,
             artistId: 0,
             artistName: 'Susan Wheel',
-            artwork: 'Anxiety',
+            name: 'Anxiety',
             image:  '/assets/susan/anxiety-lrg.png',
             featured: false,
             description: 'Frantic shapes and colors converge in an anxious blur. Painted with acrylic on Canvas'
@@ -56,7 +56,7 @@ export const ARTWORKS =
             id: 6,
             artistId: 1,
             artistName: 'Robert Day',
-            artwork: 'Pink',
+            name: 'Pink',
             image: '/assets/susan/pink-pill-lrg.png',
             description: 'Exploring the emotion and movement in everyday shapes and forms, the Pink Pill elicits the emotion and flow of the feminane. Painted with acrylic on Canvas',
         },
@@ -64,7 +64,7 @@ export const ARTWORKS =
             id: 7,
             artistId: 1,
             artistName: 'Robert Day',
-            artwork: 'Blue Fields',
+            name: 'Blue Fields',
             image: '/assets/susan/blue-fields-lrg.png',
             description: 'A view from the air reveals colorful landscapes. Painted with acrylic on Canvas'
         },
@@ -72,7 +72,7 @@ export const ARTWORKS =
             id: 8,
             artistId: 1,
             artistName: 'Robert Day',
-            artwork: 'Flow',
+            name: 'Flow',
             image: '/assets/susan/flow-lrg.png',
             featured: false,
             description: 'Vibrant textures blunted by the abscence of color. Painted with Acrylic on Canvas.'
@@ -81,7 +81,7 @@ export const ARTWORKS =
             id: 9,
             artistId: 1,
             artistName: 'Robert Day',
-            artwork: 'The Bends',
+            name: 'The Bends',
             image:  '/assets/susan/the-bends-lrg.png',
             featured: false,
             description: 'Curves and color merge giving movement to the stillness of the piece. Painted with acrylic on Canvas'
@@ -90,7 +90,7 @@ export const ARTWORKS =
             id: 10,
             artistId: 1,
             artistName: 'Robert Day',
-            artwork: 'Traffic',
+            name: 'Traffic',
             image:  '/assets/susan/traffic-lrg.png',
             featured: false,
             description: 'A blur of lights in the dark night, invoking chaos and panic. Painted with acrylic on Canvas'
@@ -99,7 +99,7 @@ export const ARTWORKS =
             id: 11,
             artistId: 1,
             artistName: 'Robert Day',
-            artwork: 'Anxiety',
+            name: 'Anxiety',
             image:  '/assets/susan/anxiety-lrg.png',
             featured: false,
             description: 'Frantic shapes and colors converge in an anxious blur. Painted with acrylic on Canvas'
@@ -108,7 +108,7 @@ export const ARTWORKS =
             id: 12,
             artistId: 2,
             artistName: 'John Flower',
-            artwork: 'Pink',
+            name: 'Pink',
             image: '/assets/susan/pink-pill-lrg.png',
             description: 'Exploring the emotion and movement in everyday shapes and forms, the Pink Pill elicits the emotion and flow of the feminane. Painted with acrylic on Canvas',
         },
@@ -116,7 +116,7 @@ export const ARTWORKS =
             id: 13,
             artistId: 2,
             artistName: 'John Flower',
-            artwork: 'Blue Fields',
+            name: 'Blue Fields',
             image: '/assets/susan/blue-fields-lrg.png',
             description: 'A view from the air reveals colorful landscapes. Painted with acrylic on Canvas'
         },
@@ -124,7 +124,7 @@ export const ARTWORKS =
             id: 14,
             artistId: 2,
             artistName: 'John Flower',
-            artwork: 'Flow',
+            name: 'Flow',
             image: '/assets/susan/flow-lrg.png',
             featured: false,
             description: 'Vibrant textures blunted by the abscence of color. Painted with Acrylic on Canvas.'
@@ -133,7 +133,7 @@ export const ARTWORKS =
             id: 15,
             artistId: 2,
             artistName: 'John Flower',
-            artwork: 'The Bends',
+            name: 'The Bends',
             image:  '/assets/susan/the-bends-lrg.png',
             featured: false,
             description: 'Curves and color merge giving movement to the stillness of the piece. Painted with acrylic on Canvas'
@@ -142,7 +142,7 @@ export const ARTWORKS =
             id: 16,
             artistId: 2,
             artistName: 'John Flower',
-            artwork: 'Traffic',
+            name: 'Traffic',
             image:  '/assets/susan/traffic-lrg.png',
             featured: false,
             description: 'A blur of lights in the dark night, invoking chaos and panic. Painted with acrylic on Canvas'
@@ -151,7 +151,7 @@ export const ARTWORKS =
             id: 17,
             artistId: 2,
             artistName: 'John Flower',
-            artwork: 'Anxiety',
+            name: 'Anxiety',
             image:  '/assets/susan/anxiety-lrg.png',
             featured: false,
             description: 'Frantic shapes and colors converge in an anxious blur. Painted with acrylic on Canvas'
@@ -160,7 +160,7 @@ export const ARTWORKS =
             id: 18,
             artistId: 3,
             artistName: 'Miranda Kind',
-            artwork: 'Pink',
+            name: 'Pink',
             image: '/assets/susan/pink-pill-lrg.png',
             description: 'Exploring the emotion and movement in everyday shapes and forms, the Pink Pill elicits the emotion and flow of the feminane. Painted with acrylic on Canvas',
         },
@@ -168,7 +168,7 @@ export const ARTWORKS =
             id: 19,
             artistId: 3,
             artistName: 'Miranda Kind',
-            artwork: 'Blue Fields',
+            name: 'Blue Fields',
             image: '/assets/susan/blue-fields-lrg.png',
             description: 'A view from the air reveals colorful landscapes. Painted with acrylic on Canvas'
         },
@@ -176,7 +176,7 @@ export const ARTWORKS =
             id: 20,
             artistId: 3,
             artistName: 'Miranda Kind',
-            artwork: 'Flow',
+            name: 'Flow',
             image: '/assets/susan/flow-lrg.png',
             featured: false,
             description: 'Vibrant textures blunted by the abscence of color. Painted with Acrylic on Canvas.'
@@ -185,7 +185,7 @@ export const ARTWORKS =
             id: 21,
             artistId: 3,
             artistName: 'Miranda Kind',
-            artwork: 'The Bends',
+            name: 'The Bends',
             image:  '/assets/susan/the-bends-lrg.png',
             featured: false,
             description: 'Curves and color merge giving movement to the stillness of the piece. Painted with acrylic on Canvas'
@@ -194,7 +194,7 @@ export const ARTWORKS =
             id: 22,
             artistId: 3,
             artistName: 'Miranda Kind',
-            artwork: 'Traffic',
+            name: 'Traffic',
             image:  '/assets/susan/traffic-lrg.png',
             featured: false,
             description: 'A blur of lights in the dark night, invoking chaos and panic. Painted with acrylic on Canvas'
@@ -203,7 +203,7 @@ export const ARTWORKS =
             id: 23,
             artistId: 3,
             artistName: 'Miranda Kind',
-            artwork: 'Anxiety',
+            name: 'Anxiety',
             image:  '/assets/susan/anxiety-lrg.png',
             featured: false,
             description: 'Frantic shapes and colors converge in an anxious blur. Painted with acrylic on Canvas'
@@ -212,7 +212,7 @@ export const ARTWORKS =
             id: 24,
             artistId: 4,
             artistName: 'Amelia Blue',
-            artwork: 'Pink',
+            name: 'Pink',
             image: '/assets/susan/pink-pill-lrg.png',
             description: 'Exploring the emotion and movement in everyday shapes and forms, the Pink Pill elicits the emotion and flow of the feminane. Painted with acrylic on Canvas',
         },
@@ -220,7 +220,7 @@ export const ARTWORKS =
             id: 25,
             artistId: 4,
             artistName: 'Amelia Blue',
-            artwork: 'Blue Fields',
+            name: 'Blue Fields',
             image: '/assets/susan/blue-fields-lrg.png',
             description: 'A view from the air reveals colorful landscapes. Painted with acrylic on Canvas'
         },
@@ -228,7 +228,7 @@ export const ARTWORKS =
             id: 26,
             artistId: 4,
             artistName: 'Amelia Blue',
-            artwork: 'Flow',
+            name: 'Flow',
             image: '/assets/susan/flow-lrg.png',
             featured: false,
             description: 'Vibrant textures blunted by the abscence of color. Painted with Acrylic on Canvas.'
@@ -237,7 +237,7 @@ export const ARTWORKS =
             id: 27,
             artistId: 4,
             artistName: 'Amelia Blue',
-            artwork: 'The Bends',
+            name: 'The Bends',
             image:  '/assets/susan/the-bends-lrg.png',
             featured: false,
             description: 'Curves and color merge giving movement to the stillness of the piece. Painted with acrylic on Canvas'
@@ -246,7 +246,7 @@ export const ARTWORKS =
             id: 28,
             artistId: 4,
             artistName: 'Amelia Blue',
-            artwork: 'Traffic',
+            name: 'Traffic',
             image:  '/assets/susan/traffic-lrg.png',
             featured: false,
             description: 'A blur of lights in the dark night, invoking chaos and panic. Painted with acrylic on Canvas'
@@ -255,7 +255,7 @@ export const ARTWORKS =
             id: 29,
             artistId: 4,
             artistName: 'Amelia Blue',
-            artwork: 'Anxiety',
+            name: 'Anxiety',
             image:  '/assets/susan/anxiety-lrg.png',
             featured: false,
             description: 'Frantic shapes and colors converge in an anxious blur. Painted with acrylic on Canvas'
@@ -264,7 +264,7 @@ export const ARTWORKS =
             id: 30,
             artistId: 5,
             artistName: 'Jessie Jewel',
-            artwork: 'Pink',
+            name: 'Pink',
             image: '/assets/susan/pink-pill-lrg.png',
             description: 'Exploring the emotion and movement in everyday shapes and forms, the Pink Pill elicits the emotion and flow of the feminane. Painted with acrylic on Canvas',
         },
@@ -272,7 +272,7 @@ export const ARTWORKS =
             id: 31,
             artistId: 5,
             artistName: 'Jessie Jewel',
-            artwork: 'Blue Fields',
+            name: 'Blue Fields',
             image: '/assets/susan/blue-fields-lrg.png',
             description: 'A view from the air reveals colorful landscapes. Painted with acrylic on Canvas'
         },
@@ -280,7 +280,7 @@ export const ARTWORKS =
             id: 32,
             artistId: 5,
             artistName: 'Jessie Jewel',
-            artwork: 'Flow',
+            name: 'Flow',
             image: '/assets/susan/flow-lrg.png',
             featured: false,
             description: 'Vibrant textures blunted by the abscence of color. Painted with Acrylic on Canvas.'
@@ -289,7 +289,7 @@ export const ARTWORKS =
             id: 33,
             artistId: 5,
             artistName: 'Jessie Jewel',
-            artwork: 'The Bends',
+            name: 'The Bends',
             image:  '/assets/susan/the-bends-lrg.png',
             featured: false,
             description: 'Curves and color merge giving movement to the stillness of the piece. Painted with acrylic on Canvas'
@@ -298,7 +298,7 @@ export const ARTWORKS =
             id: 34,
             artistId: 5,
             artistName: 'Jessie Jewel',
-            artwork: 'Traffic',
+            name: 'Traffic',
             image:  '/assets/susan/traffic-lrg.png',
             featured: false,
             description: 'A blur of lights in the dark night, invoking chaos and panic. Painted with acrylic on Canvas'
@@ -307,7 +307,7 @@ export const ARTWORKS =
             id: 35,
             artistId: 5,
             artistName: 'Jessie Jewel',
-            artwork: 'Anxiety',
+            name: 'Anxiety',
             image:  '/assets/susan/anxiety-lrg.png',
             featured: false,
             description: 'Frantic shapes and colors converge in an anxious blur. Painted with acrylic on Canvas'
