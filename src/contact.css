@@ -1,0 +1,19 @@
+body {
+    font-family: "Montserrat";
+  }
+
+  .contact-container {
+    margin: 20px;
+    padding: 30px;
+    color: white;
+  } 
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-area: about;
+    align-items: left;    
+
+
+  }

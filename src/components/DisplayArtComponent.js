@@ -25,13 +25,16 @@ function RenderDescription( {artwork} ) {
 const Display = (props) => {
     let params = useParams();
 
-    const displayed = props.artworks.filter((art) => art.name === params.artworkName)[0];
-    console.log(displayed);
+    const display = props.artworks.filter((art) => art.name === params.artistName)[0];
+    console.log(display);
+
+    
     return (
         <div className="container">
-            <div className="row"></div>
-                <RenderPainting artwork = {displayed}/>
-                <RenderDescription artwork = {displayed}/>
+            <div className="row">
+                <RenderPainting artwork = {display}/>
+                <RenderDescription artwork = {display}/>
+            </div>
         </div>
 
     );

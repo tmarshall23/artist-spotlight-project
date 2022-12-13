@@ -1,5 +1,9 @@
 body {
     font-family: "Montserrat";
+    padding: 15px;
+    margin: 15px;
+    background-color: black;
+
   }
   
   .art-container {
@@ -18,22 +22,38 @@ body {
   .top-section {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     grid-area: top;
+    color: white;
+    /* padding: 15px;
+    margin: 15px; */
   }
 
-  /* .gallery-title {
+  .gallery-title {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     grid-area: title;
-  } */
+    font-size: 23px;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .website {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgray;
+    
+  }
 
   .bio-website {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     grid-area: bio-website;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
   }
 
   .art-cards {
@@ -44,6 +64,9 @@ body {
       "card card card";
     align-items: center;
     grid-area: cards;
+    margin-left: 85px;
+    margin-right: 85px;
+    padding: 10px;
   }
   
   .card {
@@ -58,12 +81,22 @@ body {
   }
 
   .art-title{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     /* height: 30px; */
     padding: 15px;
     font-size: 30px;
   } 
+
+  .home {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+
+  }
 
 
 
@@ -86,7 +119,7 @@ body {
   @media only screen and (min-width: 601px) {
     .art-cards{
       grid-template-columns: 2fr 2fr;
-      margin-top: 175px;
+      /* margin-top: 175px; */
     }
 
     .card {
@@ -98,7 +131,7 @@ body {
   @media only screen and (min-width: 992px) {
     .art-cards{
       grid-template-columns: 1fr 1fr 1fr;
-      margin-top: 175px;
+      /* margin-top: 175px; */
 
     }
 

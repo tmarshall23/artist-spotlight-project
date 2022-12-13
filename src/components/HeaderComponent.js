@@ -7,7 +7,8 @@ import '../header.css';
 const Header = () => {
         return(
             // <div>
-                <div className="header-container" >    
+                <div className="header-container" >  
+                    <div className='box'>  
                         <div className="header-title">
                             <h1>ARTIST SPOTLIGHT</h1>   
                         </div>
@@ -28,6 +29,7 @@ const Header = () => {
                                     </NavLink>
                                 </NavItem>
                             </Nav> 
+                    </div>
                 </div>
             // </div>
         );    

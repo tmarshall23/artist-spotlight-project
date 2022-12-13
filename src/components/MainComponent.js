@@ -36,19 +36,20 @@ class Main extends Component {
                 <Routes>
                     <Route  element= {<Layout />}>
                         <Route path="" element={<Home artists={this.state.artists}/>}/>
-                            <Route exact path= "contactus" element={<Contact/>} />
-                            <Route exact path= "aboutus" element={<About/>}/>
+                        <Route path="/" element={<Home artists={this.state.artists}/>}/>
+                        <Route exact path= "/contactus" element={<Contact/>} />
+                        <Route exact path= "/aboutus" element={<About/>}/>
 
                     </Route>
-                </Routes>
-                <Routes>
+                {/* </Routes>
+                <Routes> */}
                     <Route exact path= "/:artistName" element={<Artist artists={this.state.artists} artworks={this.state.artworks}/>} />
-                        <Route exact path="/:artworkName" element={<Display artworks={this.state.artworks}/>} />
-                        <Route exact path= "*" element={
-                                <main style={{ padding: "1rem"}}>
-                                <p>There's nothing here!</p>
-                                </main>
-                                }/>
+                        <Route exact path="/:artwork.name" element={<Display artworks={this.state.artworks}/>} />
+                    <Route exact path= "*" element={
+                            <main style={{ padding: "1rem"}}>
+                            <p>There's nothing here!</p>
+                            </main>
+                            }/>
                 </Routes>
             </>
 

@@ -1,5 +1,7 @@
 body {
     font-family: "Montserrat";
+    background-color: black;
+
   }
   
   .home-container {
@@ -34,8 +36,8 @@ body {
   }
 
   .title-box {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     height: 20%;
     padding: 15px;
     font-size: 30px;
