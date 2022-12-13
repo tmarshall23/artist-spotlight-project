@@ -5,7 +5,6 @@ export const ARTISTS =
             name: 'Susan Wheel',
             image: '/assets/home/susan-home.png',
             artwork: 'Pink Pill',
-            featured: true,
             bio: 'Susan is a self-taught abstract artist using shapes and forms and experiementing in color and texture. Digital and Arylic on Canvas.',
             website: 'www.shop.susanwheel.com'
         },
@@ -14,26 +13,23 @@ export const ARTISTS =
             name: 'Robert Day',
             image: '/assets/home/robert-home.png',
             artwork: 'Darkness',
-            featured: true,
-            bio: 'A view from the air reveals colorful landscapes. Painted with acrylic on Canvas',
+            bio: 'Robert uses photography to explore the unseen in nature. Black and White Photography',
             website: 'www.shopify.robertday.com'
         },
         {
             id: 2,
             name: 'John Flower',
-            image: '/assets/home/john-home.png',
+            image: '/assets/home/john-home.jpg',
             artwork: 'Tea and Oranges',
-            featured: true,
-            bio: 'Vibrant textures blunted by the abscence of color. Painted with Acrylic on Canvas.',
+            bio: 'John is a self-taught still-life artist who is inspired by classical still-life artists. Oil and Acrylic paintings on Canvas.',
             website: 'www.john-flowers-art.com'
         },
         {
             id: 3,
             name: 'Miranda Kind',
-            image:  '/assets/home/miranda-home.png',
+            image:  '/assets/home/miranda-home.jpg',
             artwork: 'Hope',
-            featured: true,
-            bio: 'Curves and color merge giving movement to the stillness of the piece. Painted with acrylic on Canvas',
+            bio: 'Miranda is a classically trained abstract artist who loves to use bright colors, texture, and shapes to evoke emotion. Acrylic on Canvas.',
             website: 'www.mirandakind.com'
 
         },
@@ -42,8 +38,7 @@ export const ARTISTS =
             name: 'Amelia Blue',
             image:  '/assets/home/amelia-home.png',
             artwork: 'Open',
-            featured: true,
-            bio: 'A blur of lights in the dark night, invoking chaos and panic. Painted with acrylic on Canvas',
+            bio: 'Amelia is inspired by the colorful sides of life.  Self-taught, she uses splashes of color, and texture to create paintings as vibrant and alive as she is. Acrylic on Canvas.',
             website: 'www.ameliablue.com'
 
         },
@@ -52,8 +47,7 @@ export const ARTISTS =
             name: 'Jessie Jewel',
             image:  '/assets/home/jessie-home.png',
             artwork: 'Bloom',
-            featured: true,
-            bio: 'Frantic shapes and colors converge in an anxious blur. Painted with acrylic on Canvas',
+            bio: 'Trained as an x-ray technician, Jessie is inspired by the beauty in x-ray images- particularly organic matter.',
             website: 'www.shopify.jessie-jewel.com'
 
         }
