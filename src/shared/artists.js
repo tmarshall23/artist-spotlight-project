@@ -22,7 +22,7 @@ export const ARTISTS =
             id: 2,
             name: 'John Flower',
             image: '/assets/home/john-home.png',
-            artwork: 'Table Still-Life',
+            artwork: 'Tea and Oranges',
             featured: true,
             bio: 'Vibrant textures blunted by the abscence of color. Painted with Acrylic on Canvas.',
             website: 'www.john-flowers-art.com'
