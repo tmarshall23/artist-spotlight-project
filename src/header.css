@@ -9,8 +9,7 @@ body {
     position:relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    background-size: cover;
+    justify-content: center;
     background: url("../public/assets/new-header-6.jpg");
     background-size: cover;
     background-repeat: no;

@@ -41,12 +41,13 @@ class Main extends Component {
                         <Route exact path= "/aboutus" element={<About/>}/>
 
                     </Route>
-                {/* </Routes>
-                <Routes> */}
-                    <Route exact path= "/:artistName" element={<Artist artists={this.state.artists} artworks={this.state.artworks}/>} />
-                        <Route exact path="/:artwork.name" element={<Display artworks={this.state.artworks}/>} />
+                    <Route exact path= "/artist/:artistName" element={<Artist artists={this.state.artists} artworks={this.state.artworks}/>} />
+                    <Route exact path="/artwork/:name" element={<Display artists={this.state.artists} artworks={this.state.artworks}/>} />
                     <Route exact path= "*" element={
-                            <main style={{ padding: "1rem"}}>
+                            <main style={{ 
+                                padding: "3rem",
+                                margin: "3rem",
+                                color: "white"}}>
                             <p>There's nothing here!</p>
                             </main>
                             }/>

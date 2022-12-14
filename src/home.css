@@ -1,13 +1,12 @@
 body {
     font-family: "Montserrat";
     background-color: black;
-
   }
   
   .home-container {
     display: flex;
     flex-direction: column;
-
+    
   } 
 
   .home-cards {
@@ -35,7 +34,7 @@ body {
     grid-area: picture;
   }
 
-  .title-box {
+  .home-titles {
     background-color: white;
     color: black;
     height: 20%;
@@ -69,18 +68,6 @@ body {
     }
   }
   
-    
-  /* @media only screen and (max-width: 992px) {
-    .home-cards{
-      grid-template-columns: 1fr 1fr 1fr;
-      margin-top: 175px;
-
-    }
-
-    .card {
-      margin: 15px;
-    }
-  } */
 
   
 

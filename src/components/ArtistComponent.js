@@ -7,9 +7,9 @@ import { Link, NavLink, useParams } from "react-router-dom";
 function RenderCards({artistName, art}) {
     return(
         <Card>
-            <Link to={`/${artistName}/${art.name}`}>
+            <Link to={`/artwork/${art.name}`}>
             <CardImg width="100%" src= {art.image} alt={art.artwork}/>
-            <CardBody>
+            <CardBody className="artist">
                 <CardTitle className='art-title' >
                     {art.name}
                 </CardTitle>
@@ -42,6 +42,7 @@ const Artist = (props) => {
             <div className="top-section">
                 <div className="gallery-title">
                     <h1>{params.artistName}</h1>
+                    <hr width="100%"/>
                 </div>
                 <div className="bio-website">
                     <p>{info.bio}</p>

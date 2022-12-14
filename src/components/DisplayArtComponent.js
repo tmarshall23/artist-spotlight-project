@@ -1,42 +1,73 @@
 import React from 'react';
-import '../home.css';
+import { Card, CardImg, CardBody, CardTitle, NavItem} from 'reactstrap';
+import '../display.css';
 import "@fontsource/montserrat";
-import { useParams } from 'react-router-dom';
+import { useParams, NavLink } from 'react-router-dom';
 
 function RenderPainting( {artwork} ) {
     return(
-        <div>
-            
-            <img width="100%" src={artwork.image} alt={artwork.name} />
+        <>
+            <Card>
+                <CardImg src={artwork.image} alt={artwork.name} />
 
-        </div>  
+            </Card>
+        </>
+        
     );
 }
 
 function RenderDescription( {artwork} ) {
     return(
-        <div>
-            <h5>{artwork.name}</h5>
-            <p>{artwork.description}</p>
-        </div>
+        
+        <>
+            <Card>
+                <CardBody className='display'>            
+                    <h5>{artwork.artistName}</h5>
+                    <CardTitle className='display-title' >
+                        {artwork.name}
+                    </CardTitle>
+                    <br/>
+                    <p>{artwork.description}</p>
+                    <br/>
+                </CardBody>
+            </Card>
+
+
+        </>
+    );
+}
+
+function RenderLink ( {artist} ) {
+    return (
+        <>
+            <NavItem>
+                <NavLink className="artist-page" to={`/artist/${artist}`}>
+                    Back to the Artist Page 
+                </NavLink>
+            </NavItem>
+        </>
     );
 }
 
 const Display = (props) => {
     let params = useParams();
-
-    const display = props.artworks.filter((art) => art.name === params.artistName)[0];
-    console.log(display);
+    
+    const display = props.artworks.filter((art) => art.name === params.name)[0];
 
     
     return (
-        <div className="container">
-            <div className="row">
-                <RenderPainting artwork = {display}/>
-                <RenderDescription artwork = {display}/>
+        <><div className="display-container">
+            <div className='picture'>
+                <RenderPainting artwork={display} />
             </div>
-        </div>
+            <div className='words'>
+                <RenderDescription artwork={display} />
+            </div>
 
+        </div>
+        <div className='artist-link'>
+            <RenderLink artist={display.artistName}/>
+        </div></>
     );
 }
 

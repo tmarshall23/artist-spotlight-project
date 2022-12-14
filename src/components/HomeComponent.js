@@ -2,14 +2,14 @@ import React from 'react';
 import '../home.css';
 import "@fontsource/montserrat";
 import { Card, CardImg, CardBody, CardTitle} from 'reactstrap';
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function RenderArtistDisplay({artist}) {
     return(
         <Card>
-            <Link to={`/${artist.name}`} >
+            <Link to={`/artist/${artist.name}`} >
             <CardImg width="100%" src= {artist.image} alt={artist.name}/>
-            <CardBody>
+            <CardBody className='home-titles'>
                 <CardTitle className='title-box' >
                     {artist.name}
                 </CardTitle>
